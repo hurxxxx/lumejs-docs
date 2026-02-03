@@ -123,6 +123,10 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+      footer: {
+        style: 'dark',
+        copyright: `Copyright © ${new Date().getFullYear()} LumeJS. 허건우 대표 저작권자. All rights reserved.`,
+      },
     }),
 };
 

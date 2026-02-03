@@ -37,3 +37,11 @@ slug: /
 - [09. 지식 관리와 검색(RAG 이해)](book/knowledge-rag)
 - [10. 거버넌스와 리스크 관리](book/governance)
 - [11. 조직 내 AI 내재화 로드맵](book/capstone)
+
+---
+
+## 저작권
+
+**Copyright © 2026 LumeJS. 허건우 대표 저작권자. All rights reserved.**
+
+본 문서의 모든 내용은 저작권법에 의해 보호됩니다. 무단 전재 및 재배포를 금지합니다.
