@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'AI Group Study',
+  title: 'AX 컨설팅 - 기업용 AI 도입 상담 및 AI 전환 가이드',
   tagline: '실무자 중심 기업 AI 내재화 커리큘럼',
   favicon: 'img/favicon.ico',
 
@@ -20,12 +20,13 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://example.com',
+  url: 'https://lumejs.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/docs/',
 
   onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -72,12 +73,20 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [
+        {name: 'keywords', content: 'AX 컨설팅, 기업용 AI, AI 도입 상담, AI 전환 가이드, 기업 AI 내재화, AI 교육, 실무자 AI 교육, AI 컨설팅'},
+        {name: 'description', content: 'AX 컨설팅 - 실무자 중심 기업 AI 내재화 커리큘럼. 기업용 AI 도입 상담부터 AI 전환 가이드까지 체계적인 AI 교육 프로그램을 제공합니다.'},
+        {property: 'og:type', content: 'website'},
+        {property: 'og:title', content: 'AX 컨설팅 - 기업용 AI 도입 상담 및 AI 전환 가이드'},
+        {property: 'og:description', content: '실무자 중심 기업 AI 내재화 커리큘럼. 기업용 AI 도입 상담부터 AI 전환 가이드까지'},
+        {property: 'og:site_name', content: 'AX Consulting'},
+      ],
       colorMode: {
         defaultMode: 'light',
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'AI Group Study',
+        title: 'LumeJS Docs',
         items: [
           {
             type: 'docSidebar',
@@ -87,6 +96,11 @@ const config = {
           },
           {
             type: 'search',
+            position: 'right',
+          },
+          {
+            href: 'https://lumejs.com',
+            label: 'Home',
             position: 'right',
           },
         ],
