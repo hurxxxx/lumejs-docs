@@ -73,6 +73,14 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      announcementBar: {
+        id: 'consultation_cta',
+        content:
+          '💡 AI 컨설팅 서비스가 궁금하신가요? <a target="_self" href="https://lumejs.com"><strong>메인 사이트에서 자세히 알아보기 →</strong></a>',
+        backgroundColor: '#FF6B35',
+        textColor: '#ffffff',
+        isCloseable: true,
+      },
       metadata: [
         {name: 'keywords', content: 'AX 컨설팅, 기업용 AI, AI 도입 상담, AI 전환 가이드, 기업 AI 내재화, AI 교육, 실무자 AI 교육, AI 컨설팅'},
         {name: 'description', content: 'AX 컨설팅 - 실무자 중심 기업 AI 내재화 커리큘럼. 기업용 AI 도입 상담부터 AI 전환 가이드까지 체계적인 AI 교육 프로그램을 제공합니다.'},
