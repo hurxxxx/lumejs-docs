@@ -2,30 +2,45 @@
 title: 08. 워크플로우 설계와 자동화
 ---
 
-## 학습 목표
-- AS-IS/TO-BE로 업무를 설계한다.
-- 자동화 우선순위를 정한다.
+## 1. 업무는 ‘흐름’으로 설계해야 한다
+AI는 한 번의 질문보다 **여러 단계의 업무 흐름**에서 더 큰 효과를 낸다.  
+따라서 업무를 **AS-IS → TO-BE**로 재정의하고, 트리거·조건·액션을 명확히 해야 한다.
 
-## 핵심 개념
-- 트리거/조건/액션
-- 예외 처리와 검증
+## 2. 기본 설계 단위
+- **트리거**: 일이 시작되는 조건(예: 이메일 수신, 일정 도래)
+- **조건**: 분기 기준(예: 금액, 우선순위)
+- **액션**: 실행 단계(예: 요약 생성, 승인 요청)
+- **검증**: 결과 확인(예: 사람 검토, 로그 기록)
 
-## 예시
-- 휴가 신청: 신청 -> 승인 -> 기록 -> 알림
+## 3. Agentic(에이전트형) 워크플로우
+최근 연구는 AI가 **계획 수립 → 도구 사용 → 실행**까지 이어지는 방식으로 발전하고 있음을 보여준다. 이는 복잡한 업무를 작은 단위로 나누고, **사람의 승인 단계를 포함**하는 방식으로 설계해야 안전하다.
 
-## 실습
-1. AS-IS 프로세스를 5단계로 정리
-2. 자동화 후보를 3개 선정
+## 4. 범용 사례
+- **휴가 신청**: 신청 → 승인 → 기록 → 알림
+- **계약 검토**: 요약 생성 → 쟁점 추출 → 법무 승인
+- **문의 대응**: 분류 → 답변 초안 → 담당자 승인
 
-## 체크리스트
-- [ ] 예외 처리 흐름을 정의했다
-- [ ] 검증/로그 단계가 있다
+## 5. 업종별 박스 (예시)
+| 업종 | 자동화 흐름 예 | 핵심 안전 장치 |
+|---|---|---|
+| 제조 | 설비 이상 알림 → 점검 보고 | 승인/로그 |
+| 금융 | 거래 이상 탐지 → 리스크 보고 | 이중 검토 |
+| 유통 | 재고 부족 알림 → 발주 제안 | 최종 승인 |
+| 공공 | 민원 분류 → 답변 초안 | 근거 문서 필수 |
 
-## 요약
-자동화는 **작게 시작해서 반복 개선**한다.
+## 6. 한계와 주의점
+- **예외 처리**: 모든 상황을 자동화할 수 없다.
+- **책임 분산**: 자동화가 책임을 없애지 않는다.
+- **보안**: 시스템 연동 시 접근 권한과 로그가 필수다.
+
+## 7. 용어 풀이
+- **워크플로우**: 업무를 단계별로 연결한 흐름
+- **오케스트레이션**: 여러 작업을 순서대로 조정
+- **에이전트**: 목표 달성을 위해 여러 단계를 수행하는 AI
+- **감사 로그**: 누가 언제 무엇을 했는지 기록
 
 ## 참고/출처
+- ReAct (Reasoning + Acting) Paper: https://arxiv.org/abs/2210.03629
+- Toolformer (Tool Use) Paper: https://arxiv.org/abs/2302.04761
+- AutoGen (Multi-Agent Conversation): https://arxiv.org/abs/2308.08155
 - NIST AI RMF 1.0: https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10
-- NIST AI RMF Generative AI Profile: https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence
-- ISO/IEC 42001:2023: https://www.iso.org/standard/42001
-- EU AI Act Article 4 (AI literacy): https://digital-strategy.ec.europa.eu/en/policies/ai-talent-skills-and-literacy

@@ -1,38 +1,62 @@
 ---
-title: 11. 캡스톤 프로젝트
+title: 11. 조직 내 AI 내재화 로드맵
 ---
 
-## 학습 목표
-- 실제 업무 문제를 AI 적용 과제로 완성한다.
-- 산출물과 성과 지표를 정의한다.
+## 1. 내재화의 의미
+AI 내재화는 “AI를 몇 번 써보는 것”이 아니라 **조직의 일하는 방식에 AI가 자연스럽게 녹아드는 상태**를 말한다.  
+이 단계에서는 기술보다 **조직 구조, 정책, 데이터, 사람**이 더 중요해진다.
 
-## 핵심 개념
-- 문제 정의 -> 해결안 설계 -> 실행 계획
-- KPI/ROI와 리스크 관리
+## 2. 제안서의 논리를 뒷받침하는 핵심 축
+이 책의 전개는 다음 3가지 메시지를 뒷받침한다.
 
-## 예시
-- 고객 문의 분류 자동화 + 사람 검토 프로세스
+1) **실험에서 ROI로**: PoC를 넘어 운영 성과를 증명해야 한다.  
+2) **Copilot에서 Agentic으로**: 단순 보조를 넘어 업무 흐름 단위로 확장한다.  
+3) **성능·비용·거버넌스 균형**: 속도만 추구하면 위험이 커진다.
 
-## 실습
-1. 과제 제목과 목표를 1문장으로 작성
-2. 성공 지표 3개 정의
-3. 0-3개월 실행 로드맵 작성
+## 3. 단계별 로드맵
 
-## 제출물
-- 3-5페이지 제안서
-- 아키텍처 스케치 1장
-- 5분 발표 자료
+### 0–3개월: 리터러시와 기준 정립
+- AI 리터러시 교육(기본 용어, 안전 원칙)
+- 사용 가능/금지 영역 정의
+- 민감정보 처리 기준 수립
 
-## 체크리스트
-- [ ] 문제/목표가 명확하다
-- [ ] 리스크/검증이 포함된다
-- [ ] KPI가 측정 가능하다
+### 3–12개월: 적용 확대
+- 문서·회의 업무 중심의 성공 사례 확보
+- 지식 검색(RAG) 기반의 근거 중심 Q&A 구축
+- 핵심 부서(기획, 운영, 고객지원)로 확산
 
-## 요약
-캡스톤은 **AI 적용을 실제 업무로 연결하는 마지막 단계**다.
+### 1–2년: 운영 체계 확립
+- 거버넌스 조직(컨트롤 타워) 구축
+- 비용·성과 지표(KPI/ROI) 관리 체계 마련
+- 하이브리드 인프라 및 데이터 거버넌스 고도화
+
+## 4. 범용 사례
+- **전사 문서 흐름 개선**: 보고서 작성 시간을 줄이고 품질 표준화
+- **고객 대응 체계 강화**: 근거 기반 답변으로 신뢰 확보
+- **운영 지표 개선**: KPI 모니터링과 조기 경보 체계
+
+## 5. 업종별 박스 (예시)
+| 업종 | 내재화 우선 과제 | 기대 효과 |
+|---|---|---|
+| 제조 | 설비/품질 지식 관리 | 현장 대응 속도 향상 |
+| 금융 | 규정/리스크 체계화 | 컴플라이언스 강화 |
+| 유통 | 수요·재고 분석 | 비용 절감 |
+| 공공 | 민원 응답 품질 | 신뢰도 향상 |
+
+## 6. 한계와 주의점
+- **인력 변화 저항**: 조직 변화는 시간이 필요하다.
+- **인프라 제약**: 전력/데이터센터 등 외부 요인이 영향을 준다.
+- **규제 대응**: 법·정책 변화에 맞춘 지속 업데이트 필요
+
+## 7. 용어 풀이
+- **내재화**: 조직 내부에 지속적으로 자리 잡는 상태
+- **컨트롤 타워**: 정책/운영/성과를 총괄하는 조직
+- **하이브리드 인프라**: 클라우드와 온프레미스를 혼합한 운영 방식
 
 ## 참고/출처
+- AI Index 2025 Report (Stanford HAI): https://hai.stanford.edu/ai-index/2025-ai-index-report
 - NIST AI RMF 1.0: https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10
-- NIST AI RMF Generative AI Profile: https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence
 - ISO/IEC 42001:2023: https://www.iso.org/standard/42001
-- EU AI Act Article 4 (AI literacy): https://digital-strategy.ec.europa.eu/en/policies/ai-talent-skills-and-literacy
+- EU AI Act 요약(EUR-Lex): https://eur-lex.europa.eu/summary/EN/4762484
+- IEA Energy and AI (2024): https://www.iea.org/reports/energy-and-ai
+- Korea AI Basic Act 개요(미 상무부): https://www.trade.gov/market-intelligence/south-korea-artificial-intelligence-ai-basic-act
