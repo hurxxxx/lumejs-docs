@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'AI Group Study',
-  tagline: '비개발자 중심 기업 AI 내재화 커리큘럼',
+  tagline: '실무자 중심 기업 AI 내재화 커리큘럼',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
