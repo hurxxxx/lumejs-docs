@@ -44,6 +44,9 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: './sidebars.js',
+          editUrl: 'https://github.com/hurxxxx/lumejs-docs/edit/main/',
+          editCurrentVersion: true,
+          editLocalizedFiles: true,
         },
         blog: false,
         theme: {
