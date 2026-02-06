@@ -136,5 +136,4 @@ title: "부록: 템플릿 모음"
 - NIST AI RMF 1.0: https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10
 - NIST AI 600-1 (Generative AI Profile, 2024-07-26): https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence
 - OWASP Top 10 for LLM Applications: https://owasp.org/www-project-top-10-for-large-language-model-applications/
-- NIST IR 8596 (Preliminary Draft, 2025-12-16): https://csrc.nist.gov/pubs/ir/8596/pd
-
+- NIST IR 8596 iPRD(2025-12-16): https://csrc.nist.gov/pubs/ir/8596/iprd

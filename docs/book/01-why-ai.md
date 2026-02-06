@@ -654,7 +654,7 @@ AI는 **사람의 판단을 강화하는 도구**일 뿐이라는 점을 잊지 
 - NIST AI RMF Generative AI Profile: https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence
 - ISO/IEC 42001:2023: https://www.iso.org/standard/42001
 - ISO/IEC 23894:2023: https://www.iso.org/standard/77304.html
-- ISO/IEC 42005:2025: https://www.iso.org/standard/42005
+- ISO/IEC 42005:2025: https://www.iso.org/standard/44545.html
 - EU AI Act (Regulation 2024/1689, EUR-Lex): https://eur-lex.europa.eu/eli/reg/2024/1689/oj
 - EU AI Act AI literacy (Article 4): https://digital-strategy.ec.europa.eu/en/policies/ai-talent-skills-and-literacy
 - OECD AI Principles (2019, 2024 업데이트): https://oecd.ai/principles/

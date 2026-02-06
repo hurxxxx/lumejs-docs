@@ -953,6 +953,6 @@ AI 결과를 검토하고, 출처를 확인하고, 민감정보를 보호하는 
 - NIST AI RMF Generative AI Profile: https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence
 - ISO/IEC 42001:2023: https://www.iso.org/standard/42001
 - ISO/IEC 23894:2023: https://www.iso.org/standard/77304.html
-- ISO/IEC 42005:2025: https://www.iso.org/standard/42005
+- ISO/IEC 42005:2025: https://www.iso.org/standard/44545.html
 - UNESCO Recommendation on the Ethics of AI: https://www.unesco.org/en/articles/recommendation-ethics-artificial-intelligence
 - OWASP Top 10 for LLM Applications: https://owasp.org/www-project-top-10-for-large-language-model-applications/

@@ -424,7 +424,7 @@ AI는 외부 서비스를 많이 활용한다. 이때 위험은 “내가 통제
 - NIST AI RMF Generative AI Profile: https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence
 - ISO/IEC 42001:2023: https://www.iso.org/standard/42001
 - ISO/IEC 23894:2023: https://www.iso.org/standard/77304.html
-- ISO/IEC 42005:2025: https://www.iso.org/standard/42005
+- ISO/IEC 42005:2025: https://www.iso.org/standard/44545.html
 - EU AI Act 요약(EUR-Lex): https://eur-lex.europa.eu/summary/EN/4762484
 - OECD AI Principles: https://oecd.ai/principles/
 - UNESCO Recommendation on the Ethics of AI: https://unesdoc.unesco.org/ark:/48223/pf0000380455
