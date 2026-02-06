@@ -24,16 +24,26 @@ function loadGlossaryData(glossaryDir) {
     const content = fs.readFileSync(path.join(glossaryDir, file), 'utf-8');
     const slug = file.replace('.md', '');
 
-    // frontmatter title
-    const titleMatch = content.match(/^---\s*\ntitle:\s*(.+)\s*\n---/m);
+    // frontmatter 파싱
+    const fmMatch = content.match(/^---\s*\n([\s\S]*?)\n---/m);
+    if (!fmMatch) continue;
+    const fm = fmMatch[1];
+
+    const titleMatch = fm.match(/^title:\s*["']?(.+?)["']?\s*$/m);
     if (!titleMatch) continue;
     const title = titleMatch[1].trim();
+
+    // aliases (쉼표 구분)
+    const aliasMatch = fm.match(/^aliases:\s*(.+)$/m);
+    const aliases = aliasMatch
+      ? aliasMatch[1].split(',').map(a => a.trim()).filter(a => a.length >= 2)
+      : [];
 
     // 한 줄 정의
     const defMatch = content.match(/## 한 줄 정의\s*\n(.+)/);
     const definition = defMatch ? defMatch[1].trim() : title;
 
-    const matchTerms = parseTitle(title);
+    const matchTerms = [...parseTitle(title), ...aliases];
 
     entries.push({ slug, title, definition, matchTerms });
   }

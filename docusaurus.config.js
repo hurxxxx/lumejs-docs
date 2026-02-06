@@ -103,20 +103,12 @@ const config = {
         logo: {
           alt: 'LumeJS Logo',
           src: 'img/logo.svg',
-          href: 'https://lumejs.com',
-          target: '_self',
         },
         items: [
           {
             href: 'https://lumejs.com',
             label: '🏠 메인 사이트',
             position: 'left',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'bookSidebar',
-            position: 'left',
-            label: '책',
           },
           {
             type: 'search',
