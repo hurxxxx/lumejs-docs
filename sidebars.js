@@ -22,6 +22,11 @@ const sidebars = {
       label: '책 소개',
     },
     {
+      type: 'doc',
+      id: 'prologue',
+      label: '프롤로그',
+    },
+    {
       type: 'category',
       label: 'Part 1. 기초 이해',
       items: [

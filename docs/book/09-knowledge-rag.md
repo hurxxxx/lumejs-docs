@@ -403,6 +403,6 @@ RAG는 다음과 같은 업무에서 효과적이다.
 
 ## 참고/출처
 - NIST AI RMF 1.0: https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10
-- ISO/IEC 42001: https://www.iso.org/standard/81230.html
+- ISO/IEC 42001: https://www.iso.org/standard/42001
 - ISO/IEC 23894: https://www.iso.org/standard/77304.html
 - OECD AI Principles: https://oecd.ai/principles/

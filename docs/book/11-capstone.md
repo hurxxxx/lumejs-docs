@@ -595,5 +595,5 @@ ROI는 숫자만이 아니라 **의사결정의 기준**이다. 숫자가 작아
 - NIST AI RMF 1.0: https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10
 - ISO/IEC 42001:2023: https://www.iso.org/standard/42001
 - EU AI Act 요약(EUR-Lex): https://eur-lex.europa.eu/summary/EN/4762484
-- IEA Energy and AI (2024): https://www.iea.org/reports/energy-and-ai
+- IEA Energy and AI (2025): https://www.iea.org/reports/energy-and-ai
 - Korea AI Basic Act 개요(미 상무부): https://www.trade.gov/market-intelligence/south-korea-artificial-intelligence-ai-basic-act

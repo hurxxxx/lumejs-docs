@@ -307,10 +307,6 @@ ROI를 설계할 때는 “비용 절감”만 보지 말고 “리스크 감소
 
 또한 로드맵은 커뮤니케이션 계획을 포함해야 한다. 도구 도입의 목적을 직원들에게 명확히 설명해야 한다. AI 도입이 “업무를 줄이기 위한 것”인지, “품질을 높이기 위한 것”인지 혼란스러우면 저항이 생긴다. 작은 성공을 공유하고, 실패 사례도 투명하게 공유해야 한다. 변화 관리는 기술이 아니라 **신뢰 구축**의 과정이다.
 
-로드맵에는 “역할 배분”이 포함되어야 한다. 누가 도구 운영을 맡고, 누가 교육을 담당하며, 누가 품질을 검토하는지 명확해야 한다. 역할이 없으면 도구는 운영되지 않는다. 특히 현업 중심 조직에서는 “현업 책임자”가 중요하다. IT만 맡기면 현업이 도구를 외면할 수 있다. 로드맵은 사람과 역할을 포함한 **조직 설계**다.
-
-또한 로드맵은 “커뮤니케이션 계획”을 포함해야 한다. 도구 도입의 목적을 직원들에게 명확히 설명해야 한다. AI 도입이 “업무를 줄이기 위한 것”인지, “품질을 높이기 위한 것”인지 혼란스러우면 저항이 생긴다. 커뮤니케이션은 변화 관리의 핵심이다. 기술만 도입하면 변화는 일어나지 않는다.
-
 ## 21. 한계와 주의점
 도구를 잘 선택해도 AI는 완벽하지 않다. AI 결과는 그럴듯해 보이지만 오류가 있을 수 있다. 따라서 검토와 승인 절차는 필수다. 또한 도구의 업데이트로 결과가 바뀔 수 있다. 이때 기준이 없으면 문서 품질이 흔들린다. 마지막으로, 도구 도입은 조직 문화와 충돌할 수 있다. “사람이 해야 한다”는 문화가 강한 조직에서는 AI가 거부될 수 있다. 이 한계들을 인정하고, 운영 원칙을 세워야 한다.
 
@@ -349,7 +345,7 @@ ROI를 설계할 때는 “비용 절감”만 보지 말고 “리스크 감소
 ## 참고/출처
 - NIST AI RMF 1.0: https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10
 - NIST AI RMF Generative AI Profile: https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence
-- ISO/IEC 42001: https://www.iso.org/standard/81230.html
+- ISO/IEC 42001: https://www.iso.org/standard/42001
 - ISO/IEC 23894: https://www.iso.org/standard/77304.html
 - ISO/IEC 27001: https://www.iso.org/standard/27001
 - OECD AI Principles: https://oecd.ai/principles/
