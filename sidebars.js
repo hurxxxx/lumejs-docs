@@ -27,11 +27,6 @@ const sidebars = {
       label: '프롤로그',
     },
     {
-      type: 'doc',
-      id: 'start-here',
-      label: 'Start Here (1주 적용)',
-    },
-    {
       type: 'category',
       label: 'Part 1. 기초 이해',
       items: [
@@ -65,6 +60,7 @@ const sidebars = {
       label: '부록',
       items: [
         'glossary',
+        'appendix/one-week',
         'appendix/templates',
       ],
     },

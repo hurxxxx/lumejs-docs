@@ -1,8 +1,8 @@
 ---
-title: Start Here (1주 적용)
+title: "1주 적용 워크시트(선택)"
 ---
 
-이 페이지는 “실무자가 **1주일 안에** AI를 업무에 **안전하게 붙여보는**” 가장 가벼운 실행 가이드다.  
+이 페이지는 “실무자가 **1주일 안에** AI를 업무에 **안전하게 붙여보는**” 가장 가벼운 실행 워크시트다.  
 핵심은 **완전 자동화**가 아니라 **초안 생성 + 사람 검토(책임)** 구조를 만드는 것이다.
 
 ## 0) 시작 전에: 3가지만 정하자(10분)
@@ -76,11 +76,10 @@ title: Start Here (1주 적용)
 
 ## 6) 템플릿이 필요하면
 실무에서 바로 복사해 쓸 수 있는 양식은 부록에 모아두었다.
-- [부록: 템플릿 모음](appendix/templates)
+- [부록: 템플릿 모음](templates)
 
 ## 참고/출처
 - EU AI Act (Regulation (EU) 2024/1689), Article 4 AI literacy: https://eur-lex.europa.eu/eli/reg/2024/1689/oj
 - NIST AI RMF 1.0: https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10
 - NIST AI 600-1 (Generative AI Profile, 2024-07-26): https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence
 - OWASP Top 10 for LLM Applications: https://owasp.org/www-project-top-10-for-large-language-model-applications/
-
