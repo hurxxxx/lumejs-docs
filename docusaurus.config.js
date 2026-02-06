@@ -70,6 +70,7 @@ const config = {
   headTags: [
     {
       tagName: 'script',
+      attributes: {},
       innerHTML: `
         var _paq = window._paq = window._paq || [];
         _paq.push(['trackPageView']);
