@@ -36,3 +36,51 @@
   --ifm-footer-background-color: #151410;
   --docusaurus-highlighted-code-line-bg: rgba(89, 209, 168, 0.18);
 }
+
+/* ── Glossary Tooltip ─────────────────────────────── */
+.glossary-term-wrapper {
+  position: relative;
+  display: inline;
+}
+
+.glossary-term {
+  border-bottom: 1px dashed var(--ifm-color-primary);
+  cursor: pointer;
+  transition: border-color 0.15s;
+}
+.glossary-term:hover {
+  border-bottom-style: solid;
+}
+
+.glossary-popover {
+  position: absolute;
+  left: 0;
+  bottom: calc(100% + 6px);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: var(--ifm-background-color);
+  border: 1px solid var(--ifm-color-primary);
+  border-radius: 8px;
+  padding: 12px 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  max-width: 360px;
+  min-width: 220px;
+  z-index: 100;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  white-space: normal;
+}
+
+.glossary-popover__title {
+  font-size: 0.95rem;
+}
+
+.glossary-popover__definition {
+  color: var(--ifm-font-color-secondary);
+}
+
+.glossary-popover__link {
+  font-size: 0.85rem;
+  align-self: flex-end;
+}

@@ -5,6 +5,7 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
+import remarkGlossaryTooltip from './plugins/remark-glossary-tooltip.mjs';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -47,6 +48,7 @@ const config = {
           editUrl: 'https://github.com/hurxxxx/lumejs-docs/edit/main/',
           editCurrentVersion: true,
           editLocalizedFiles: true,
+          remarkPlugins: [remarkGlossaryTooltip],
         },
         blog: false,
         theme: {
